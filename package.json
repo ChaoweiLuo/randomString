@@ -1,0 +1,30 @@
+{
+  "name": "rdm-str",
+  "version": "1.0.0",
+  "description": "generate a random string ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaoweiLuo/rdm-str.git"
+  },
+  "keywords": [
+    "random",
+    "string",
+    "nodejs"
+  ],
+  "author": "Luo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChaoweiLuo/rdm-str/issues"
+  },
+  "homepage": "https://github.com/ChaoweiLuo/rdm-str#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
