@@ -19,7 +19,7 @@ describe("main", function(){
         }
 
         try{
-            rdm(1);
+            rdm(0);
             assert.throw(new Error("He should throw an error,but no!"))
         }catch(err){
             assert.equal(err.message,'你就这么点长度？');

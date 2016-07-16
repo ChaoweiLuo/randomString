@@ -4,7 +4,7 @@
 function _generate(length){
     if(typeof length !== 'number')
         throw new Error("你连长度都不敢告诉我吗？");
-    if(length<2){
+    if(length<1){
         throw new Error("你就这么点长度？");
     }
     var str = Math.random().toString(36).slice(2);
